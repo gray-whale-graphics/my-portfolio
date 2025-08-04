@@ -3,21 +3,26 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://gray-whale-graphics.github.io/my-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist",
     "tailwind:init": "tailwindcss init -p"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
-    "tailwindcss": "^4.1.11",
-    "vue": "^3.5.17"
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
     "@vitejs/plugin-vue": "^6.0.0",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
     "vite": "^7.0.4"
   }
 }

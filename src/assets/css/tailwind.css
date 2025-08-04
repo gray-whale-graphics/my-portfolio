@@ -1,3 +1,29 @@
 @import "tailwindcss";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+
+
+/* Custom design tokens via CSS variables */
+@layer base {
+    :root {
+      --color-primary: #70c9c6;
+      --color-deep-lilac-purple: #9e6bac;
+      --color-apache-yellow: #ccc668;
+      --color-deluge-blue: #6a68ae;
+      --color-iridium-gray: #3a3a3a;
+      --color-cloudy-white: #f4f4f4;
+  
+      --font-body: "gelica", sans-serif;
+      --font-display: "gelica", sans-serif;
+  
+      --tracking-1: 0.025em;
+    }
+
+    body {
+        font-family: var(--font-body);
+        color: var(--color-iridium-gray);
+        background-color: var(--color-cloudy-white);
+    }
+  
+    h1 {
+      color: var(--color-primary);
+    }
+  }
