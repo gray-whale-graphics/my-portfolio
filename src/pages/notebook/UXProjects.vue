@@ -14,27 +14,10 @@
                 <span class="text-md"> My Process </span>
             </h1>
         </div>
-        <div id="ux-projects" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10 px-4">
-            <div class="bg-white rounded-2xl p-6 shadow-md flex flex-col justify-between h-full">
-                <h2 class="text-lg font-semibold mb-2">UX Project 1</h2>
-                <p class="text-sm text-gray-600">Short project description goes here.</p>
-            </div>
-            <div class="bg-white rounded-2xl p-6 shadow-md flex flex-col justify-between h-full">
-                <h2 class="text-lg font-semibold mb-2">UX Project 2</h2>
-                <p class="text-sm text-gray-600">Short project description goes here.</p>
-            </div>
-            <div class="bg-white rounded-2xl p-6 shadow-md flex flex-col justify-between h-full">
-                <h2 class="text-lg font-semibold mb-2">UX Project 3</h2>
-                <p class="text-sm text-gray-600">Short project description goes here.</p>
-            </div>
-            <div class="bg-white rounded-2xl p-6 shadow-md flex flex-col justify-between h-full">
-                <h2 class="text-lg font-semibold mb-2">UX Project 4</h2>
-                <p class="text-sm text-gray-600">Short project description goes here.</p>
-            </div>
-        </div>
+        <NotebookGrid topic='ux_projects'/>
     </div>
 </template>
 
 <script setup>
-console.log("Home page loaded!")
+import NotebookGrid from '../../components/NotebookGrid.vue'
 </script>

@@ -15,9 +15,10 @@
             <div class="flex flex-col items-center justify-center"> Revisions (3x) </div>
             <div class="flex flex-col items-center justify-center"> Final Deliverable Package </div>
         </div>
+        <NotebookGrid topic='brand_projects'/>
     </div>
 </template>
 
 <script setup>
-console.log("Home page loaded!")
+import NotebookGrid from '../../components/NotebookGrid.vue'
 </script>

@@ -7,6 +7,24 @@
                 <span class="text-6xl">Designed to design</span>
             </h1>
         </div>
+        <div class="grid grid-cols-3 mt-8 ">
+                <img src="/my-portfolio/img/personal_pic1.jpg" class="rounded-md grid-span-1">
+                <div class="flex flex-col justify-center mx-8">
+                    <h2 class="text-4xl grid-span-2"> Background </h2>
+                    <p>
+                        A long time ago in a galaxy far, far away...
+                    </p>
+                </div>
+        </div>
+        <div class="grid grid-cols-3 mt-8 ">
+            <div class="flex flex-col justify-center mx-8 grid-span-2">
+                <h2 class="text-4xl"> Background </h2>
+                <p>
+                    A long time ago in a galaxy far, far away...
+                </p>
+            </div>
+            <img src="/my-portfolio/img/personal_pic1.jpg" class="rounded-md grid-span-1">
+        </div>
     </div>
 </template>
 
