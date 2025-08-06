@@ -1,6 +1,6 @@
 <template>
     <div id="home-page-content" class="flex flex-col justify-center px-6">
-        <div id="home-page-hero" class="flex flex-col p-10 bg-white w-[100%] h-[80vh] rounded-2xl">
+        <!-- <div id="home-page-hero" class="flex flex-col p-10 bg-white w-[100%] h-[80vh] rounded-2xl">
             <h1 class="text-[var(--color-deluge-blue)] font-bold">
                 <span class="text-2xl">Hello, I am a</span>
                 <br>
@@ -11,26 +11,43 @@
             <div id="view-projects-button" class="flex justify-end font-semibold text-2xl mt-[30%] mr-[50px]">
                 <router-link to="/my-notebook"> view my work > </router-link>
             </div>
-        </div>
-        <!-- horizontal marquee style animation -->
-        <div class="overflow-hidden w-full mt-10">
-            <div class="marquee-track">
-                <div class="marquee-content">
-                    <span>Low to High Fidelity Prototyping</span>
-                    <span>Research-driven approach</span>
-                    <span>Custom vector and raster graphics</span>
-                    <span>Adobe After Effects</span>
-                    <span>3+ years prior software experience</span>
+        </div> -->
+        <div class="relative w-full h-[80vh] overflow-hidden rounded-2xl">
+            <video
+                autoplay
+                loop
+                muted
+                playsinline
+                class="absolute w-full h-full object-cover"
+            >
+                <source src="/my-portfolio/videos/WhaleScenev2.mp4" type="video/mp4" />
+            </video>
+
+            <!-- <div class="relative z-10 p-10">
+                <div class="flex justify-end font-semibold text-2xl mt-[30%] mr-[50px]">
+                    <router-link to="/my-notebook"> view my work > </router-link>
                 </div>
-                <div class="marquee-content" aria-hidden="true">
-                    <span>Low to High Fidelity Prototyping</span>
-                    <span>Research-driven approach</span>
-                    <span>Custom vector and raster graphics</span>
-                    <span>Adobe After Effects</span>
-                    <span>3+ years prior software experience</span>
-                </div>
-            </div>
+            </div> -->
         </div>
+                <!-- horizontal marquee style animation -->
+                <div class="overflow-hidden w-full mt-10">
+                    <div class="marquee-track">
+                        <div class="marquee-content">
+                            <span>Low to High Fidelity Prototyping</span>
+                            <span>Research-driven approach</span>
+                            <span>Custom vector and raster graphics</span>
+                            <span>Adobe After Effects</span>
+                            <span>3+ years prior software experience</span>
+                        </div>
+                        <div class="marquee-content" aria-hidden="true">
+                            <span>Low to High Fidelity Prototyping</span>
+                            <span>Research-driven approach</span>
+                            <span>Custom vector and raster graphics</span>
+                            <span>Adobe After Effects</span>
+                            <span>3+ years prior software experience</span>
+                        </div>
+                    </div>
+                </div>
 
         <!-- <div id="highlights-grid" class="grid grid-cols-5 mt-10">
             <div class="flex flex-col items-center justify-center"> 

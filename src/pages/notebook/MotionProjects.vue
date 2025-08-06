@@ -1,11 +1,15 @@
 <template>
     <div id="home-page-content" class="flex flex-col justify-center px-6">
-        <div id="home-page-hero" class="flex flex-col p-10 bg-white w-[100%] h-[70vh] rounded-2xl">
-            <h1 class="text-[var(--color-deluge-blue)] font-bold">
-                <span class="text-8xl">More </span>
-                <br>
-                <span class="text-4xl">than motion </span>
-            </h1>
+        <div class="relative w-full h-[60vh] overflow-hidden rounded-2xl bg-white">
+            <video
+                autoplay
+                loop
+                muted
+                playsinline
+                class="absolute inset-0 w-full h-full object-cover object-center bg-white"
+            >
+                <source src="/my-portfolio/videos/MotionPageScene.mp4" type="video/mp4" />
+            </video>
         </div>
         <NotebookGrid topic="motion_projects"/>
     </div>
