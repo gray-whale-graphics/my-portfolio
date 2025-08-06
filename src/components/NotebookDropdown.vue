@@ -31,18 +31,21 @@
         >
           <div class="py-1">
             <router-link
+              @click="isOpen = !isOpen"
               to="/notebook/ux"
               class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
               UX Projects
             </router-link>
             <router-link
+              @click="isOpen = !isOpen"
               to="/notebook/motion"
               class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
               Motion Projects
             </router-link>
             <router-link
+              @click="isOpen = !isOpen"
               to="/notebook/brand"
               class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
