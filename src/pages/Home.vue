@@ -20,14 +20,8 @@
                 playsinline
                 class="absolute w-full h-full object-cover"
             >
-                <source src="/my-portfolio/videos/WhaleScenev2.mp4" type="video/mp4" />
+                <source src="/videos/WhaleScenev2.mp4" type="video/mp4" />
             </video>
-
-            <!-- <div class="relative z-10 p-10">
-                <div class="flex justify-end font-semibold text-2xl mt-[30%] mr-[50px]">
-                    <router-link to="/my-notebook"> view my work > </router-link>
-                </div>
-            </div> -->
         </div>
                 <!-- horizontal marquee style animation -->
                 <div class="overflow-hidden w-full mt-10">

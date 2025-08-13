@@ -3,10 +3,10 @@
       <router-link
         v-for="project in projects"
         :key="project.slug"
-        :to="`/projects/${project.slug}`"
+        :to="`/projects/${project.slug}?topic=${topic}`"
         class="bg-white rounded-2xl p-6 shadow-md flex flex-col hover:shadow-xl transition"
       >
-        <img :src="project.thumbnail" alt="" class="rounded-lg mb-4" />
+        <img :src="project.thumbnail" alt="" class="rounded-lg mb-4 h-48 w-full object-cover" />
         <h2 class="text-lg font-semibold">{{ project.title }}</h2>
         <p class="text-sm text-gray-600">{{ project.shortDescription }}</p>
       </router-link>

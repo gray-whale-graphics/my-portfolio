@@ -8,7 +8,7 @@
             </h1>
         </div>
         <div id="my-background" class="grid grid-cols-3 mt-8 mx-20">
-                <img src="/my-portfolio/img/myforestpic.jpg" class="rounded-md col-span-1">
+                <img src="/img/myforestpic.jpg" class="rounded-md col-span-1">
                 <div class="flex flex-col ml-8 col-span-2">
                     <h2 class="text-4xl grid-span-2 mt-10"> Background </h2>
                     <p class="pt-10">
@@ -43,7 +43,7 @@
                     final product.
                 </p>
             </div>
-            <img src="/my-portfolio/img/pexels-tara-winstead-8383646.jpg" class="rounded-md col-span-1">
+            <img src="/img/pexels-tara-winstead-8383646.jpg" class="rounded-md col-span-1">
         </div>
 
         <div id="experience" class="flex flex-col mx-20 mt-10">

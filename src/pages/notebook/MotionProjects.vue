@@ -6,9 +6,9 @@
                 loop
                 muted
                 playsinline
-                class="absolute inset-0 w-full h-full object-cover object-center bg-white"
+                class="absolute inset-2 w-full h-full object-cover object-left bg-white"
             >
-                <source src="/my-portfolio/videos/MotionPageScene.mp4" type="video/mp4" />
+                <source src="/videos/MotionPageScene.mp4" type="video/mp4" />
             </video>
         </div>
         <NotebookGrid topic="motion_projects"/>
